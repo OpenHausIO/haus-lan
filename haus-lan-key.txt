@@ -19,10 +19,15 @@
 |   +-----------------+               +---------+                     |
 | Network fabric provider    Infrastructure services provider         |
 |                                                                     |
-|   /-----------------\               +----=------+                   |
-|   |rounded corners  |               |dashed edge|                   |
-|   \-----------------/               +----=------+                   |
+| /----------------------\               +----=------+                |
+| | four rounded corners |               |dashed edge|                |
+| \----------------------/               +----=------+                |
 |     Network Client           Normally detached from network         |
+|                                                                     |
+| /----------------------+                                            |
+| |  two rounded corners |                                            |
+| +----------------------/                                            |
+|     Embedded system                                                 |
 |                                                                     |
 +---------------------------------------------------------------------+
 |{d}                                                                  |
