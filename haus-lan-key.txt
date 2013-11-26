@@ -1,0 +1,35 @@
++---------------------------------------------------------------------+
+|                                                                     |
+|   DHCP Servers as numbered above                                    |
+|                                                                     |
+|(1)  Primary, dnsmasq on Netgear ReadyNAS SPARC                      |
+|(2)  If no primary DHCP then activate manually,                      |
+|     dnsmasq on Raspbian ARM                                         |
+|(3)  If no primary ISP then activate manually,                       |
+|     detach eth to primary and attach FreedomPop4G                   |
+|(4)  If no primary ISP then activate automatically                   |
+|     for modem config only, no DHCP to haus LAN                      |
+|                                                                     |
++---------------------------------------------------------------------+
+|                                                                     |
+|   Objects                                                           |
+|                                                                     |
+|   +-----------------+               +---------+                     |
+|   |parallelogram{io}|               |rectangle|                     |
+|   +-----------------+               +---------+                     |
+| Network fabric provider    Infrastructure services provider         |
+|                                                                     |
+|   /-----------------\               +----=------+                   |
+|   |rounded corners  |               |dashed edge|                   |
+|   \-----------------/               +----=------+                   |
+|     Network Client           Normally detached from network         |
+|                                                                     |
++---------------------------------------------------------------------+
+|{d}                                                                  |
+|   Connectors                                                        |
+|                                                                     |
+|     <---> IP over wired          *---* Ethernet over wired          |
+|                                                                     |
+|     <-=-> IP over wireless       *-=-* Ethernet over wireless       |
+|                                                                     |
++---------------------------------------------------------------------+
