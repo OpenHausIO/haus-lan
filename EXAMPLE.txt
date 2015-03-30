@@ -1,0 +1,28 @@
++---------------------------------------------------------------------+
+|                                                                     |
+|   Objects                                                           |
+|                                                                     |
+|   +-----------------+               +---------+                     |
+|   |parallelogram{io}|               |rectangle|                     |
+|   +-----------------+               +---------+                     |
+| Network fabric provider    Infrastructure services provider         |
+|                                                                     |
+| /----------------------\               +----=------+                |
+| | four rounded corners |               |dashed edge|                |
+| \----------------------/               +----=------+                |
+|     Network Client           Normally detached from network         |
+|                                                                     |
+| /----------------------+                                            |
+| |  two rounded corners |                                            |
+| +----------------------/                                            |
+|     Embedded system                                                 |
+|                                                                     |
++---------------------------------------------------------------------+
+|{d}                                                                  |
+|   Connectors                                                        |
+|                                                                     |
+|     <---> IP over wired          *---* Ethernet over wired          |
+|                                                                     |
+|     <-=-> IP over wireless       *-=-* Ethernet over wireless       |
+|                                                                     |
++---------------------------------------------------------------------+
